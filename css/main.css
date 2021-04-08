@@ -1,0 +1,258 @@
+/*  header*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    max-width: 1900px;
+    top: 0;
+    background: #272727;
+    padding: 5px 0;
+    z-index: 10;
+    
+}
+
+.header_menu {
+    text-align: right;
+
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 8px;
+    background: #272727;
+}
+
+.header_menu ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    background: #272727;
+    
+}
+
+.header_menu ul li a:hover {
+    color: #000;
+   
+}
+
+
+/* FIM header*/
+
+
+/* Titulo  */
+.img{
+    background: url("../img/fundo-principal.jpg") no-repeat center;
+    height: 500px;
+    width: 100%;
+   
+}
+
+.titulo_principal h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 12px;
+    color: #b3b60f;
+    text-shadow: 10px 5px 5px black;
+    width: 500px;
+    margin: 80px 0 0 150px;
+    padding-top: 25px;
+}
+
+/* FIm Titulo  */
+
+/* conteudo */
+
+.center{
+    text-align: center;
+}
+
+.center form input{
+    margin-left: 280px;
+    
+
+}
+.img-bg{
+    background: url("../img/bg-fundo-planos.jpg") no-repeat center;
+    width: 100%;
+}
+
+.tam-bg{
+    height: 300px;
+    
+}
+
+.tam-bg form input{
+    line-height: 1em;
+    margin-top: 10px;
+    clear: both;
+    border-radius: 6px;
+    width: 400px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+}
+
+.campo {
+  margin-top: 50px;
+    
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    clear: both;
+    
+    
+}
+.campo label input{
+    padding: 5px;
+    
+}
+
+.botao {
+    font-size: 1.5em;
+    background: #4c8d02;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+}
+
+.botao:hover {
+    background: #b3b019;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+.tam-bg input:focus, .tam-bg select:focus {
+    background: #FFC;
+}
+
+/* FIM conteudo */
+
+
+/* sobre */
+
+.img-sobre{
+    height: 450px;
+    width: 100%;
+    background: url("../img/banner-quem-somos-v2.jpg") no-repeat center;
+    margin-bottom: 0px;
+}
+
+
+.bg-missoes{
+    margin-bottom: 80px;
+}
+
+/* FIM sobre *
+
+/* quote quebra */
+
+.quebra {
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+/* FIM quote quebra */
+
+/* Footer */
+
+.bg-footer {
+    height: 30px;
+    width: 100%;
+    background-color: #000;
+    color: seashell;
+    margin-top: -50;
+    height: 55px;
+}
+.bg-footer ul{
+    margin-top: 0;
+    
+}
+
+/* FIM Footer */
+
+.footer-fim{
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+/* Planos */
+
+.img-planos{
+    margin: 150px;
+    background-color: #000;
+}
+
+.texto-valores{
+    text-align: center;
+    font-family: Impact;
+    font-size: 25px;
+    color: #e0e0b9;
+    text-shadow: 10px 10px 7px rgb(59, 59, 59);
+    padding: 5px;
+    margin: 5px;
+}
+
+.texto-planos{
+    font-family: Impact;
+    font-size: 25px;
+    color: #b3b60f;
+    text-shadow: 10px 10px 7px rgb(59, 59, 59);
+    padding: 5px;
+    margin: 5px
+    }
+
+/* FIM Planos */
+
+/* Portifolio */
+
+.portifolio {
+    width: 100%;
+    background: url("../img/bg-fundo-planos.jpg") repeat center;
+    padding: 40px 0;
+}
+.portifolio-lista li{
+    margin-top: 20px;
+    list-style:none; 
+}
+.portifolio-lista li:last-child {
+    margin-top: 20px;
+    list-style:none; 
+}
+.tam-p{
+    height: 200px;
+    width: 100px;
+}
+
+/* FIM Portifolio */
+
+/* Contato  */
+
+.img-ctt{
+    background: url("../img/treino-grupo.jpg") no-repeat center;
+    height: 500px;
+    width: 100%;
+    
+}
